@@ -1,0 +1,117 @@
+# Site settings
+title: Autuan's Blog
+SEOTitle: 晚成的博客 |  Autuan's Blog | Autuan | autuan
+header-img: img/post-bg-desk.jpg
+email: autuan.yu@gmail.com
+description: "休息,再出发"
+keyword: "晚成的博客, autuan, 晚成, Java8, JS, Java"
+url: "http://autuan.github.io"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/Autuan/autuan.github.io.git" # you code repository
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "休息,再出发"
+sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# SNS settings
+RSS: false
+# weibo_username:     qiubaiying
+#zhihu_username:     qiubaiying
+github_username:    autuan
+#facebook_username:  baiying.qiu.7
+#jianshu_username:   e71990ada2fd
+#twitter_username:   qiubaiying
+
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# 评论系统
+# Disqus（https://disqus.com/）
+#disqus_username: autuan
+
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 7298cb2b3e8ccd607ad7                            #生成的clientID
+  clientSecret: 31f4b3bc89a230aba8bb866a5e96383344541b7c    #生成的clientSecret
+  repo: autuan.github.io    #仓库名称
+  owner: autuan    #github用户名
+  admin: autuan
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
+# 统计
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: 3c542d6816ebe64fccb68c23706c8fbc
+
+# Google Analytics
+ga_track_id: 'G-SK5QP3DSKT'            # Format: UA-xxxxxx-xx
+ga_domain: autuan.top              # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+
+
+
+
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "一杯愁",
+        href: "http://roter.top"
+    },
+    {
+        title: "sunxu_cocoa",
+        href: "https://www.jianshu.com/u/4fd7c15d9319"
+    },
+    {
+        title: "闲人不贤",
+        href: "http://www.xianrenbuxian.cn/"
+    },
+    {
+        title: "九仞之行",
+        href: "https://styunlen.cn/"
+    },
+]
