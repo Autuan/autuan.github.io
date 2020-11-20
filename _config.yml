@@ -1,10 +1,10 @@
 # Site settings
 title: Autuan's Blog
-SEOTitle: 晚成的博客 |  Autuan's Blog | Autuan | autuan
+SEOTitle: 晚成的技术小站| 晚成的博客 |  Autuan's Blog | Autuan | autuan
 header-img: img/post-bg-desk.jpg
 email: autuan.yu@gmail.com
 description: "休息,再出发"
-keyword: "晚成的博客, autuan, 晚成, Java8, JS, Java"
+keyword: "晚成的技术小站, 晚成的博客, autuan, 晚成, Java8, JS, Java"
 url: "http://autuan.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/Autuan/autuan.github.io.git" # you code repository
@@ -115,3 +115,6 @@ friends: [
         href: "https://styunlen.cn/"
     },
 ]
+
+# 备案号
+record: 皖ICP备2020019337号-1

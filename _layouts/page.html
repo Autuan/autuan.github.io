@@ -193,11 +193,19 @@ layout: default
                 <!-- Friends Blog -->
                 {% if site.friends %}
                 <hr>
-                <h5>FRIENDS</h5>
+                <h5>晚成的朋友们</h5>
                 <ul class="list-inline">
                     {% for friend in site.friends %}
                         <li><a href="{{friend.href}}">{{friend.title}}</a></li>
                     {% endfor %}
+                </ul>
+                {% endif %}
+                <!-- 备案 record -->
+                 {% if site.record %}
+                <hr>
+                <h5>网站备案号</h5>
+                <ul class="list-inline">
+                   <p> {{site.record}}</p>
                 </ul>
                 {% endif %}
     		</div>
