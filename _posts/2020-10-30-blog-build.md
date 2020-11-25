@@ -2,7 +2,7 @@
 layout:     post                    
 title:      取消博客的fork              
 subtitle:   欢迎建立友情链接 
-date:       2019-8-16              
+date:       2019-10-30              
 author:     Autuan.Yu
 header-img: img/post-bg-2015.jpg    
 catalog: true                      
