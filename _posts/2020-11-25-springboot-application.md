@@ -1,51 +1,47 @@
 ---
 layout:     post
-title:      linux安装mysql环境
-subtitle:   
-date:       2020-11-20
+title:      SpringBoot外配配置文件
+subtitle:   在项目外存放配置文件
+date:       2020-11-25
 author:     Autuan.Yu
 header-img:
 catalog: true
 tags:
-    - linux
+    - Java
+    - SpringBoot
 ---
 
-> 机会是留给有准备的人
+>  十月江南天气好，可怜冬景似春华
 
-## 安装
+## 简介
+众所周知，SpringBoot 的配置文件默认在`src/main/resource/` 目录下。  
 
-1.  执行以下命令，下载安装mysql
-```` 
-wget http://dev.mysql.com/get/mysql57-community-release-el7-10.noarch.rpm &&
-yum -y install mysql57-community-release-el7-10.noarch.rpm &&
-yum -y install mysql-community-server
-```` 
-2.  启动mysql
-```` 
-systemctl start mysqld.service
-```` 
-3.  查看初始密码
-```` 
-grep "password" /var/log/mysqld.log
-```` 
-4. 登录数据库
-```` 
-mysql -uroot -p
-```` 
-5. 修改数据库密码
-```` 
-set global validate_password_policy=0;  #修改密码安全策略为低（只校验密码长度，至少8位）。
-ALTER USER 'root'@'localhost' IDENTIFIED BY '12345678';
-```` 
-6. 设置远程管理权限
-```` 
-GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '12345678';
-```` 
-7. 退出数据库
-```` 
-exit
-```` 
+但在实际使用时，我们往往不愿意将真实的配置文件放在这里：  
 
+放在此处的配置文件会随着版本控制工具一同更新。  
+
+往往会有一些配置信息会因为环境的不同而需要分别配置：特别是在开发环境上  
+
+所以将配置信息外配是我们常见的一种需求。
+
+
+## IDE 配置
+此处，以 Intellij Idea 为例：
+
+	1. 打开 Run/Debug Configurations 窗口
+	2. 找到该项目的启动信息
+	3. 在 Environment 下的 VM options 中填入下列信息： -Dspring.config.location=D:\config\application.yml 
+
+这样子，在启动时，就会以 D 盘 config 目录下的 application.yml 作为配置文件
+
+## Jar 包启动
+SpringBoot 在单机部署往往使用jar包部署：可以在 jar 命令启动时设置启动参数：
+
+```` 
+ java -jar -Dspring.config.location=D:/config/application.yml project.jar
+````
+
+即可
 
 ## 参考  
 [1]阿里云. https://cn.aliyun.com/  
