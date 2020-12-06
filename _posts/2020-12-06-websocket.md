@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      The Scheduler cannot be restarted after shutdown() has been called.
-subtitle:   使用若依出现的问题
-date:       2020-12-01
+title:      SpringBoot使用WebSocket
+subtitle:   服务器通信
+date:       2020-12-06
 author:     Autuan.Yu
 header-img:
 catalog: true
 tags:
-    - 错误记录
+    - WebSocket
 ---
 
 
@@ -15,10 +15,10 @@ tags:
 ## 前言
 ## 导入依赖
 ```` 
-		<dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-websocket</artifactId>
-        </dependency>
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-websocket</artifactId>
+</dependency>
 ````
 ## Server编写
 
@@ -46,7 +46,7 @@ public class WebSocketServer {
 
 
 ### 实现方法
-打开第三方的websocket 依赖，我们会发现，在 ``下有4个注解：``、``、``、``    
+打开第三方的websocket 依赖，我们会发现，在 ``下有4个注解：`OnOpen`、``、``、``    
 
 
 ![javax.websocket 注解]()
