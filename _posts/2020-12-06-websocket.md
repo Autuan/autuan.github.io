@@ -46,10 +46,8 @@ public class WebSocketServer {
 
 
 ### 实现方法
-打开第三方的websocket 依赖，我们会发现，在 ``下有4个注解：`OnOpen`、``、``、``    
+打开第三方的websocket 依赖，我们会发现，在 `javax.websocket`下有4个注解：`@OnOpen`、`@OnMessage`、`@Close`、`@Error`    
 
-
-![javax.websocket 注解]()
 
 我们需要在 Server 类中新加方法并使用到这些注解
 
@@ -84,7 +82,7 @@ public class WebSocketServer {
 
  ```` java
 public class WebSocketServer {
-	/**
+    /**
      * 所有链接对象
      */
     private static ConcurrentHashMap<String,Session> webSocketMap = new ConcurrentHashMap<>();
