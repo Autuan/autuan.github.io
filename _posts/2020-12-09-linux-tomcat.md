@@ -20,24 +20,24 @@ wget https://mirror.bit.edu.cn/apache/tomcat/tomcat-10/v10.0.0/bin/apache-tomcat
 ````
 2.  执行以下命令，解压刚刚下载Tomcat包。
 ```` 
-tar -zxvf apache-tomcat-8.5.59.tar.gz 
+tar -zxvf apache-tomcat-10.0.0.tar.gz 
 ````
 3.  修改Tomcat名字
 ```` 
-mv apache-tomcat-8.5.59 /usr/local/Tomcat8.5
+mv apache-tomcat-10.0.0 /usr/local/tomcat10.0
 ````
 4. 为Tomcat授权
 ```` 
-chmod +x /usr/local/Tomcat8.5/bin/*.sh
+chmod +x /usr/local/tomcat10.0/bin/*.sh
 ````
 5. 修改Tomcat默认端口号为80
     注：Tomcat默认端口号为8080
 ```` 
-sed -i 's/Connector port="8080"/Connector port="80"/' /usr/local/Tomcat8.5/conf/server.xml
+sed -i 's/Connector port="8080"/Connector port="80"/' /usr/local/tomcat10.0/conf/server.xml
 ````
 6. 启动
 ```` 
-/usr/local/Tomcat8.5/bin/./startup.sh
+/usr/local/tomcat10.0/bin/./startup.sh
 ````
 7. 退出数据库
 ```` 
