@@ -16,7 +16,7 @@ tags:
 
 1.  执行以下命令，下载Tomcat压缩包。
 ```` 
-wget https://mirror.bit.edu.cn/apache/tomcat/tomcat-8/v8.5.59/bin/apache-tomcat-8.5.59.tar.gz
+wget https://mirror.bit.edu.cn/apache/tomcat/tomcat-10/v10.0.0/bin/apache-tomcat-10.0.0.tar.gz
 ````
 2.  执行以下命令，解压刚刚下载Tomcat包。
 ```` 
