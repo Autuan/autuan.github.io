@@ -22,7 +22,11 @@ wget https://mirror.bit.edu.cn/apache/tomcat/tomcat-10/v10.0.0/bin/apache-tomcat
 ```` 
 tar -zxvf apache-tomcat-10.0.0.tar.gz 
 ````
-3.  修改Tomcat名字
+如果不能下载，可以尝试下列源：  
+````
+https://mirrors.cnnic.cn/apache/tomcat/tomcat-10/v10.0.2/bin/apache-tomcat-10.0.2.tar.gz
+````
+3.  修改Tomcat名字
 ```` 
 mv apache-tomcat-10.0.0 /usr/local/tomcat10.0
 ````
