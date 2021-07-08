@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      swagger SyntaxError: Unexpected token 
+title:      swagger SyntaxError Unexpected token ' in JSON at position 150750
 subtitle:   swagger常见问题了
 date:       2021-07-08
 author:     Autuan.Yu
