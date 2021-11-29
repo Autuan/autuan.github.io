@@ -18,7 +18,7 @@ tags:
  Required request part 'file' is not present
 ````
 
-提示是 file没有值，但实际上，在 postman 中是有伟这个的。
+提示是 file没有值，但实际上，在 postman 中是有这个的。
 
 
 ## 解决
