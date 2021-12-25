@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      docker 安装 redis
-subtitle:   docker 安装 redis
+title:      docker安装redis
+subtitle:   docker安装redis
 date:       2021-12-25
 author:     Autuan.Yu
 header-img:
