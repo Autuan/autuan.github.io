@@ -33,7 +33,7 @@ docker run -d -p 6379:6379 --name redis redis --appendonly yes --requirepass aut
 ````
 参数说明
 | 名称 | 作用 |
-| --- | --- |
+|----|----|
 | -d | 常驻后台 |
 | -p | 端口绑定,此处将容器6379端口绑定到主机6379端口上 |
 | --name | 为服务起一个好记的名字，这里还用`redis`的名称 |
