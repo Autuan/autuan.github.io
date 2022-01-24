@@ -36,6 +36,14 @@ docker run -d -p 6379:6379 --name redis redis --appendonly yes --requirepass aut
 | 名称 | 作用 |
 |----|----|
 | -d | 常驻后台 |
+| -p | 端口绑定,此处将容器3306端口绑定到主机3306端口上 |
+| --name | 为服务起一个好记的名字，这里还用`mysql`的名称 |
+| -e MYSQL_ROOT_PASSWORD | 配置mysql连接密码，此处为 ‘Autuan’ |
+
+
+| 名称 | 作用 |
+|----|----|
+| -d | 常驻后台 |
 | -p | 端口绑定,此处将容器6379端口绑定到主机6379端口上 |
 | --name | 为服务起一个好记的名字，这里还用`redis`的名称 |
 | --appendonly | redis 配置持久化配置，如果不做持久化可以关闭 |
