@@ -32,7 +32,7 @@ docker run -p 3306:3306 --name mysql -e MYSQL_ROOT_PASSWORD=Autuan -d mysql
 
 
 | 名称 | 作用 |
-| --- | --- |
+|----|----|
 | -d | 常驻后台 |
 | -p | 端口绑定,此处将容器3306端口绑定到主机3306端口上 |
 | --name | 为服务起一个好记的名字，这里还用`mysql`的名称 |
