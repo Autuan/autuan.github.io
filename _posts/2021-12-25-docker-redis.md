@@ -31,7 +31,8 @@ docker pull redis:latest
 ````
 docker run -d -p 6379:6379 --name redis redis --appendonly yes --requirepass autuan
 ````
-参数说明
+参数说明   
+
 | 名称 | 作用 |
 |----|----|
 | -d | 常驻后台 |
