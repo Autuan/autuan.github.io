@@ -2,7 +2,7 @@
 layout:     post
 title:      Consider defining a bean of type 'top.autuan.example.mapper.MemberMapper' in your configuration.
 subtitle:   Mapper中的bean不在Spring管理类中
-date:       2022-01-27
+date:       2022-01-28
 author:     Autuan.Yu
 header-img: https://cdn.colorhub.me/5pO4fIZ7A2WlXhb-Wiqk9nsAlV-i-Y2kgdOhlSX2HPg/rs:auto:0:500:0/g:ce/bG9jYWw6Ly8vODEv/MzQvMzc2NGJlMjE5/MTBhODQyOWJlYjdh/N2E0ZjMzYzU4NDE2/ZWUyODEzNC5qcGVn.jpg
 catalog: true
