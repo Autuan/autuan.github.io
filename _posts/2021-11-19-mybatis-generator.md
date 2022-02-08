@@ -83,7 +83,7 @@ SELECT * FROM `order` LIMIT 1;
 
 希望能帮助到各位。  
 
-[1] MyBatisGenerator官网（http://mybatis.org/generator/index.html）
-[2] MyBatisGenerator context 节点说明  (http://mybatis.org/generator/configreference/context.html)
-[3] MyBatisGenerator table 节点说明  (http://mybatis.org/generator/configreference/table.html)
+[1] MyBatisGenerator官网(http://mybatis.org/generator/index.html)  
+[2] MyBatisGenerator context 节点说明  (http://mybatis.org/generator/configreference/context.html)  
+[3] MyBatisGenerator table 节点说明  (http://mybatis.org/generator/configreference/table.html)  
 
