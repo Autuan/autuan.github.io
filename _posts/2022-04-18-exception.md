@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      GenericObjectPoolConfig Exception
-subtitle:   ClassNotFoundException: org.apache.commons.pool2.impl.GenericObjectPoolConfig
+subtitle:   ClassNotFoundException org.apache.commons.pool2.impl.GenericObjectPoolConfig
 date:       2022-04-18
 author:     Autuan.Yu
 header-img: https://i0.hippopx.com/photos/1017/475/750/image-picture-color-aberration-color-error-preview.jpg
