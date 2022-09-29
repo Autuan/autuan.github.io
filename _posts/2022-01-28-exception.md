@@ -8,6 +8,7 @@ header-img: https://cdn.colorhub.me/5pO4fIZ7A2WlXhb-Wiqk9nsAlV-i-Y2kgdOhlSX2HPg/
 catalog: true
 tags:
     - Thymeleaf
+    - 错误记录
 ---
 > 正确的结果，是从大量错误中得出来的；没有大量错误作台阶，也就登不上最后正确结果的高座。
 
