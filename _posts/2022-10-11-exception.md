@@ -50,8 +50,7 @@ public class DemoServiceImpl implements DemoService {
 
     public DemoServiceImpl(@Autowired DemoMapper demoMapper){
         this.demoMapper = demoMapper;
-
-        // !important  此处 demoMapper 为空
+        // 正常执行
         demoMapper.doingSomething();
     }
 
