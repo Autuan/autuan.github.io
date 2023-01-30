@@ -24,10 +24,10 @@ tags:
 ### 删除选中行 Ctrl Y
 
 ### 当前页面搜索  Ctrl + F
-#### 大小写敏感 Alt C
-#### 匹配词 Alt W
-#### 下一个 Enter / F3
-#### 上一个 Shift Enter / Shift F3
+* 大小写敏感 Alt C
+* 匹配词 Alt W
+* 下一个 Enter / F3
+* 上一个 Shift Enter / Shift F3
 
 ### 当前页面替换 Ctrl + H
 
