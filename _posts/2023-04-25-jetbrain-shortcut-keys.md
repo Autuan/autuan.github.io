@@ -25,7 +25,7 @@ tags:
 - <kbd>Ctrl</kbd> + <kbd>F11</kbd> 添加助记书签 
 - <kbd>Shift</kbd> + <kbd>F11</kbd> 书签列表：快速跳转 
 - <kbd>Alt</kbd> + <kbd>2</kbd> 打开边栏查看所有书签 
-- <kbd>Ctrl</kbd> + <kbd> [0-9] </kbd> 快速添加助记书签 
+- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd> [0-9] </kbd> 快速添加助记书签 
 - <kbd>Ctrl</kbd> + <kbd> [0-9] </kbd> 快速跳转到助记书签 
 
 
