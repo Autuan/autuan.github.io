@@ -1,4 +1,3 @@
-
 ---
 layout:     post
 title:      IntellijIdea关闭项目自动重启
