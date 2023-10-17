@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      IntellijIdea更换版本报错Error: Could not find or load main class top.autuan.demo.DemoApplication
-subtitle:   IntellijIdea更换版本报错Error: Could not find or load main class top.autuan.demo.DemoApplication
+title:      IntellijIdea更换版本报错Error Could not find or load main class top.autuan.demo.DemoApplication
+subtitle:   IntellijIdea更换版本报错Error Could not find or load main class top.autuan.demo.DemoApplication
 date:       2023-10-16
 author:     Autuan.Yu
 header-img: 
