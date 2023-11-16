@@ -26,9 +26,14 @@ Bad attr `data-event-opts` with message
 
 这样的写法会导致编译后的代码中，传入doSomething方法的不是item对象，而是一个字符串$0，就像这样：
 
+{% raw %}
+{% comment %} 
+
 ```
 <view data-event-opts="{{[['tap',[['doSomething',['$0',index,'parent'],
 ```
+ {% endcomment %}
+{% endraw %}
 
 解决办法很简单，就是把:key属性的值改成`index`就可以了：
 
