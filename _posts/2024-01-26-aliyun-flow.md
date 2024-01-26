@@ -1,11 +1,11 @@
 
 ---
 layout:     post                    
-title:      阿里云云效流水线部署SpringBoot 包         
+title:      阿里云云效流水线部署SpringBoot包         
 subtitle:   阿里云DevOpsCIDI
 date:       2024-01-26              
 author:     Autuan.Yu
-header-img: 
+header-img:
 catalog: true                      
 tags:                               
     - SpringBoot
